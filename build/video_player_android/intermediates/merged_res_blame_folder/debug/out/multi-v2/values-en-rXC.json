@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\ismail\\Desktop\\HelloDigital\\FoodApp H-D\\Client Boy\\flutter application\\build\\video_player_android\\intermediates\\merged_res\\debug\\values-en-rXC\\values-en-rXC.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ismail\\.gradle\\caches\\transforms-3\\a5615d4109f6bf2daffc9fb8ddc67745\\transformed\\core-1.7.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "203",
+                        "endOffsets": "254"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\ismail\\Desktop\\HelloDigital\\FoodApp H-D\\Client Boy\\flutter application\\build\\video_player_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rXC\\values-en-rXC.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ismail\\.gradle\\caches\\transforms-3\\a5615d4109f6bf2daffc9fb8ddc67745\\transformed\\core-1.7.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "203",
+                        "endOffsets": "254"
+                    }
+                }
+            ]
+        }
+    ]
+}
