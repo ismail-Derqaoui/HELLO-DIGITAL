@@ -28,26 +28,28 @@ class _PickAddressWidgetState extends StateMVC<PickAddressWidget> {
     super.initState();
   }
 
-
   @override
   Widget build(BuildContext context) {
     return Container(
       child: PlacePicker(
-        onTapBack:(){
+        onTapBack: () {
           Navigator.pop(context);
         },
         apiKey: settingsRepo.setting.value.googleMapsKey,
-        initialPosition: LatLng(settingsRepo.deliveryAddress.value?.latitude ?? 0,
+        initialPosition: LatLng(
+            settingsRepo.deliveryAddress.value?.latitude ?? 0,
             settingsRepo.deliveryAddress.value?.longitude ?? 0),
         useCurrentLocation: true,
         selectInitialPosition: true,
         usePlaceDetailSearch: true,
         forceSearchOnZoomChanged: true,
-        selectedPlaceWidgetBuilder: (_, selectedPlace, state, isSearchBarFocused) {
+        selectedPlaceWidgetBuilder:
+            (_, selectedPlace, state, isSearchBarFocused) {
           if (isSearchBarFocused) {
             return Container();
           }
-          Address _address = Address(address: selectedPlace?.formattedAddress ?? '');
+          Address _address =
+              Address(address: selectedPlace?.formattedAddress ?? '');
           return FloatingCard(
             height: 300,
             elevation: 0,
@@ -61,15 +63,25 @@ class _PickAddressWidgetState extends StateMVC<PickAddressWidget> {
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
                       Container(
-                        padding: EdgeInsets.only(top: 20, bottom: 14, left: 20, right: 20),
+                        padding: EdgeInsets.only(
+                            top: 20, bottom: 14, left: 20, right: 20),
                         decoration: BoxDecoration(
                             color: Theme.of(context).primaryColor,
-                            borderRadius: BorderRadius.vertical(top: Radius.circular(10),bottom: Radius.circular(0)),
+                            borderRadius: BorderRadius.vertical(
+                                top: Radius.circular(10),
+                                bottom: Radius.circular(0)),
                             boxShadow: [
-                              BoxShadow(color: Theme.of(context).focusColor.withOpacity(0.1), blurRadius: 10, offset: Offset(0, 5)),
+                              BoxShadow(
+                                  color: Theme.of(context)
+                                      .focusColor
+                                      .withOpacity(0.1),
+                                  blurRadius: 10,
+                                  offset: Offset(0, 5)),
                             ],
-                            border: Border.all(color: Theme.of(context).focusColor.withOpacity(0.05))
-                        ),
+                            border: Border.all(
+                                color: Theme.of(context)
+                                    .focusColor
+                                    .withOpacity(0.05))),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.stretch,
                           children: [
@@ -80,9 +92,10 @@ class _PickAddressWidgetState extends StateMVC<PickAddressWidget> {
                             ),
                             TextFormField(
                               initialValue: _address.description,
-                              onChanged: (input) => _address.description = input,
+                              onChanged: (input) =>
+                                  _address.description = input,
                               textAlign: TextAlign.start,
-                              obscureText:false,
+                              obscureText: false,
                               decoration: InputDecoration(
                                 hintText: "My Home",
                                 border: InputBorder.none,
@@ -93,15 +106,25 @@ class _PickAddressWidgetState extends StateMVC<PickAddressWidget> {
                         ),
                       ),
                       Container(
-                        padding: EdgeInsets.only(top: 20, bottom: 14, left: 20, right: 20),
+                        padding: EdgeInsets.only(
+                            top: 20, bottom: 14, left: 20, right: 20),
                         decoration: BoxDecoration(
                             color: Theme.of(context).primaryColor,
-                            borderRadius: BorderRadius.vertical(top: Radius.circular(0),bottom: Radius.circular(10)),
+                            borderRadius: BorderRadius.vertical(
+                                top: Radius.circular(0),
+                                bottom: Radius.circular(10)),
                             boxShadow: [
-                              BoxShadow(color: Theme.of(context).focusColor.withOpacity(0.1), blurRadius: 10, offset: Offset(0, 5)),
+                              BoxShadow(
+                                  color: Theme.of(context)
+                                      .focusColor
+                                      .withOpacity(0.1),
+                                  blurRadius: 10,
+                                  offset: Offset(0, 5)),
                             ],
-                            border: Border.all(color: Theme.of(context).focusColor.withOpacity(0.05))
-                        ),
+                            border: Border.all(
+                                color: Theme.of(context)
+                                    .focusColor
+                                    .withOpacity(0.05))),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.stretch,
                           children: [
@@ -114,9 +137,10 @@ class _PickAddressWidgetState extends StateMVC<PickAddressWidget> {
                               initialValue: _address.address,
                               onChanged: (input) => _address.address = input,
                               textAlign: TextAlign.start,
-                              obscureText:false,
+                              obscureText: false,
                               decoration: InputDecoration(
-                                hintText: "123 Street, City 136, State, Country",
+                                hintText:
+                                    "123 Street, City 136, State, Country",
                                 border: InputBorder.none,
                                 icon: Icon(Icons.place_outlined),
                               ),
@@ -131,9 +155,10 @@ class _PickAddressWidgetState extends StateMVC<PickAddressWidget> {
                             'address': _address.address,
                             'latitude': _address.latitude,
                             'longitude': _address.longitude,
+                            'description': _address.description,
                           }));
-                          settingsRepo.deliveryAddress.value=_address;
-                          Navigator.of(context).pushNamed('/Pages', arguments: 2);
+                          settingsRepo.deliveryAddress.value = _address;
+                          Navigator.of(context).pushNamed('/Pages');
                         },
                         //color: Get.theme.colorScheme.secondary,
                         color: Theme.of(context).accentColor,

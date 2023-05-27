@@ -17,7 +17,8 @@ class DeliveryAddressBottomSheetWidget extends StatefulWidget {
       _DeliveryAddressBottomSheetWidgetState();
 }
 
-class _DeliveryAddressBottomSheetWidgetState extends StateMVC<DeliveryAddressBottomSheetWidget> {
+class _DeliveryAddressBottomSheetWidgetState
+    extends StateMVC<DeliveryAddressBottomSheetWidget> {
   DeliveryAddressesController _con;
 
   _DeliveryAddressBottomSheetWidgetState()

@@ -13,7 +13,6 @@ import '../repository/user_repository.dart';
 import 'chat.dart';
 import 'map.dart';
 import 'menu_list.dart';
-import 'menu_list2.dart';
 import 'restaurant.dart';
 
 class DetailsWidget extends StatefulWidget {
@@ -99,7 +98,7 @@ class _DetailsWidgetState extends StateMVC<DetailsWidget> {
               routeArgument: RouteArgument(param: _con.restaurant));
           break;
         case 3:
-          widget.currentPage = MenuWidget2(
+          widget.currentPage = MenuWidget(
               parentScaffoldKey: widget.scaffoldKey,
               routeArgument: RouteArgument(param: _con.restaurant));
           break;

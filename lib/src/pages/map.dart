@@ -13,7 +13,8 @@ class MapWidget extends StatefulWidget {
   final RouteArgument routeArgument;
   final GlobalKey<ScaffoldState> parentScaffoldKey;
 
-  MapWidget({Key key, this.routeArgument, this.parentScaffoldKey}) : super(key: key);
+  MapWidget({Key key, this.routeArgument, this.parentScaffoldKey})
+      : super(key: key);
 
   @override
   _MapWidgetState createState() => _MapWidgetState();
@@ -49,15 +50,21 @@ class _MapWidgetState extends StateMVC<MapWidget> {
         leading: _con.currentRestaurant?.latitude == null
             ? new IconButton(
                 icon: new Icon(Icons.sort, color: Theme.of(context).hintColor),
-                onPressed: () => widget.parentScaffoldKey.currentState.openDrawer(),
+                onPressed: () =>
+                    widget.parentScaffoldKey.currentState.openDrawer(),
               )
             : IconButton(
-                icon: new Icon(Icons.arrow_back, color: Theme.of(context).hintColor),
-                onPressed: () => Navigator.of(context).pushNamed('/Pages', arguments: 2),
+                icon: new Icon(Icons.arrow_back,
+                    color: Theme.of(context).hintColor),
+                onPressed: () =>
+                    Navigator.of(context).pushNamed('/Pages', arguments: 2),
               ),
         title: Text(
           S.of(context).maps_explorer,
-          style: Theme.of(context).textTheme.headline6.merge(TextStyle(letterSpacing: 1.3)),
+          style: Theme.of(context)
+              .textTheme
+              .headline6
+              .merge(TextStyle(letterSpacing: 1.3)),
         ),
         actions: <Widget>[
           IconButton(

@@ -1,8 +1,8 @@
 
 {
 
-  "base_url": "https://multi-restaurants.smartersvision.com/",
+  "base_url": "http://38.242.201.51/",
 
-  "api_base_url": "https://multi-restaurants.smartersvision.com/api/"
+  "api_base_url": "http://38.242.201.51/api/"
 
 }

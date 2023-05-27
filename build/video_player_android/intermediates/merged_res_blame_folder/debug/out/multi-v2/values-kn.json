@@ -4,17 +4,7 @@
             "outputFile": "C:\\Users\\ismail\\Desktop\\HelloDigital\\FoodApp H-D\\Client Boy\\flutter application\\build\\video_player_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn\\values-kn.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ismail\\.gradle\\caches\\transforms-3\\07e91b53815583745d4ec81b83f65ae7\\transformed\\jetified-exoplayer-core-2.18.1\\res\\values-kn\\values-kn.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,129,193,270,341,422,504,605,698",
-                        "endColumns": "73,63,76,70,80,81,100,92,85",
-                        "endOffsets": "124,188,265,336,417,499,600,693,779"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ismail\\.gradle\\caches\\transforms-3\\a5615d4109f6bf2daffc9fb8ddc67745\\transformed\\core-1.7.0\\res\\values-kn\\values-kn.xml",
+                    "source": "C:\\Users\\ismail\\.gradle\\caches\\transforms-3\\812150d8428bedd3778304021d254113\\transformed\\core-1.7.0\\res\\values-kn\\values-kn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "784",
                         "endColumns": "100",
                         "endOffsets": "880"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ismail\\.gradle\\caches\\transforms-3\\142128aff4ac732a9ada118ea7519dcc\\transformed\\jetified-exoplayer-core-2.18.1\\res\\values-kn\\values-kn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,129,193,270,341,422,504,605,698",
+                        "endColumns": "73,63,76,70,80,81,100,92,85",
+                        "endOffsets": "124,188,265,336,417,499,600,693,779"
                     }
                 }
             ]
@@ -36,17 +36,7 @@
             "outputFile": "C:\\Users\\ismail\\Desktop\\HelloDigital\\FoodApp H-D\\Client Boy\\flutter application\\build\\video_player_android\\intermediates\\merged_res\\debug\\values-kn\\values-kn.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\ismail\\.gradle\\caches\\transforms-3\\07e91b53815583745d4ec81b83f65ae7\\transformed\\jetified-exoplayer-core-2.18.1\\res\\values-kn\\values-kn.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,129,193,270,341,422,504,605,698",
-                        "endColumns": "73,63,76,70,80,81,100,92,85",
-                        "endOffsets": "124,188,265,336,417,499,600,693,779"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ismail\\.gradle\\caches\\transforms-3\\a5615d4109f6bf2daffc9fb8ddc67745\\transformed\\core-1.7.0\\res\\values-kn\\values-kn.xml",
+                    "source": "C:\\Users\\ismail\\.gradle\\caches\\transforms-3\\812150d8428bedd3778304021d254113\\transformed\\core-1.7.0\\res\\values-kn\\values-kn.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -60,6 +50,16 @@
                         "startOffsets": "784",
                         "endColumns": "100",
                         "endOffsets": "880"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ismail\\.gradle\\caches\\transforms-3\\142128aff4ac732a9ada118ea7519dcc\\transformed\\jetified-exoplayer-core-2.18.1\\res\\values-kn\\values-kn.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,129,193,270,341,422,504,605,698",
+                        "endColumns": "73,63,76,70,80,81,100,92,85",
+                        "endOffsets": "124,188,265,336,417,499,600,693,779"
                     }
                 }
             ]

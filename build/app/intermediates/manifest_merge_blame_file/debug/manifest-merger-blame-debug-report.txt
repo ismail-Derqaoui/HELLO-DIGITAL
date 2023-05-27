@@ -33,417 +33,458 @@
 20-->[:geolocator_android] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-77
 20-->[:geolocator_android] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:7:22-74
 21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-21-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\ismail\.gradle\caches\transforms-3\41460b8f405a18ccf2e4749bdee3e4c6\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:28:5-82
-21-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\ismail\.gradle\caches\transforms-3\41460b8f405a18ccf2e4749bdee3e4c6\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:28:22-79
-22
-23    <uses-feature
-23-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\fe6b7ba774fc4ff778fdc79efa899f37\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
-24        android:glEsVersion="0x00020000"
-24-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\fe6b7ba774fc4ff778fdc79efa899f37\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
-25        android:required="true" />
-25-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\fe6b7ba774fc4ff778fdc79efa899f37\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
-26
-27    <queries>
-27-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\fe6b7ba774fc4ff778fdc79efa899f37\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+21-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ismail\.gradle\caches\transforms-3\1908162b7ddca17bf895c0804e57adf4\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:28:5-82
+21-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ismail\.gradle\caches\transforms-3\1908162b7ddca17bf895c0804e57adf4\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:28:22-79
+22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+22-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\ismail\.gradle\caches\transforms-3\a88006ba53f430b436e7312a4c4bb4d4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:26:5-110
+22-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\ismail\.gradle\caches\transforms-3\a88006ba53f430b436e7312a4c4bb4d4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:26:22-107
+23    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+23-->[com.google.android.gms:play-services-measurement-impl:21.2.2] C:\Users\ismail\.gradle\caches\transforms-3\4f8117516c70e2dd417fb81aa19f7f76\transformed\jetified-play-services-measurement-impl-21.2.2\AndroidManifest.xml:27:5-79
+23-->[com.google.android.gms:play-services-measurement-impl:21.2.2] C:\Users\ismail\.gradle\caches\transforms-3\4f8117516c70e2dd417fb81aa19f7f76\transformed\jetified-play-services-measurement-impl-21.2.2\AndroidManifest.xml:27:22-76
+24
+25    <uses-feature
+25-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\6a85c253164a2f362b4fe4d4d22c0568\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
+26        android:glEsVersion="0x00020000"
+26-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\6a85c253164a2f362b4fe4d4d22c0568\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
+27        android:required="true" />
+27-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\6a85c253164a2f362b4fe4d4d22c0568\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
 28
-29        <!-- Needs to be explicitly declared on Android R+ -->
-30        <package android:name="com.google.android.apps.maps" />
-30-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\fe6b7ba774fc4ff778fdc79efa899f37\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
-30-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\fe6b7ba774fc4ff778fdc79efa899f37\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
-31    </queries>
-32    <!--
-33 io.flutter.app.FlutterApplication is an android.app.Application that
-34         calls FlutterMain.startInitialization(this); in its onCreate method.
-35         In most cases you can leave this as-is, but you if you want to provide
-36         additional functionality it is fine to subclass or reimplement
-37         FlutterApplication and put your custom class here.
-38    -->
-39    <application
-40        android:name="android.app.Application"
-41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-41-->[androidx.core:core:1.8.0] C:\Users\ismail\.gradle\caches\transforms-3\c4a954e9c07e65c76377380069f1b7f3\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
-42        android:debuggable="true"
-43        android:icon="@mipmap/ic_launcher"
-44        android:label="Food Delivery App" >
-45        <meta-data
-46            android:name="com.google.android.geo.API_KEY"
-47            android:value="AIzaSyDdyth2EiAjU9m9eE_obC5fnTY1yeVNTJU" />
-48        <meta-data
-49            android:name="com.google.firebase.messaging.default_notification_icon"
-50            android:resource="@mipmap/ic_notification" />
-51
-52        <activity
-53            android:name="com.smartersvision.food_delivery_app_2.MainActivity"
-54            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
-55            android:exported="true"
-56            android:hardwareAccelerated="true"
-57            android:launchMode="singleTop"
-58            android:theme="@style/LaunchTheme"
-59            android:windowSoftInputMode="adjustResize" >
-60
-61            <!--
-62                 Specifies an Android theme to apply to this Activity as soon as
-63                 the Android process has started. This theme is visible to the user
-64                 while the Flutter UI initializes. After that, this theme continues
-65                 to determine the Window background behind the Flutter UI.
-66            -->
-67            <meta-data
-68                android:name="io.flutter.embedding.android.NormalTheme"
-69                android:resource="@style/NormalTheme" />
-70
-71            <intent-filter>
-72                <action android:name="android.intent.action.MAIN" />
-73
-74                <category android:name="android.intent.category.LAUNCHER" />
-75            </intent-filter>
-76            <intent-filter>
-77                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
-78
-79                <category android:name="android.intent.category.DEFAULT" />
-79-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
-79-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
-80            </intent-filter>
-81        </activity>
-82        <!--
-83             Don't delete the meta-data below.
-84             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
-85        -->
-86        <meta-data
-87            android:name="flutterEmbedding"
-88            android:value="2" />
-89
-90        <service
-90-->[:cloud_firestore] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
-91            android:name="com.google.firebase.components.ComponentDiscoveryService"
-91-->[:cloud_firestore] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:8:18-89
-92            android:directBootAware="true"
-92-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ismail\.gradle\caches\transforms-3\1561ba62c4e960f7786d872d29bc488c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
-93            android:exported="false" >
-93-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\ismail\.gradle\caches\transforms-3\41460b8f405a18ccf2e4749bdee3e4c6\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:54:13-37
-94            <meta-data
-94-->[:cloud_firestore] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
-95                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-95-->[:cloud_firestore] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-134
-96                android:value="com.google.firebase.components.ComponentRegistrar" />
-96-->[:cloud_firestore] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
-97            <meta-data
-97-->[:firebase_auth] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
-98                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-98-->[:firebase_auth] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
-99                android:value="com.google.firebase.components.ComponentRegistrar" />
-99-->[:firebase_auth] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
-100            <meta-data
-100-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-38:85
-101                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
-101-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:37:17-128
-102                android:value="com.google.firebase.components.ComponentRegistrar" />
-102-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:38:17-82
-103            <meta-data
-103-->[:firebase_core] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
-104                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-104-->[:firebase_core] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
-105                android:value="com.google.firebase.components.ComponentRegistrar" />
-105-->[:firebase_core] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
-106            <meta-data
-106-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\ismail\.gradle\caches\transforms-3\41460b8f405a18ccf2e4749bdee3e4c6\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:55:13-57:85
-107                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-107-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\ismail\.gradle\caches\transforms-3\41460b8f405a18ccf2e4749bdee3e4c6\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:56:17-119
-108                android:value="com.google.firebase.components.ComponentRegistrar" />
-108-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\ismail\.gradle\caches\transforms-3\41460b8f405a18ccf2e4749bdee3e4c6\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:57:17-82
-109            <meta-data
-109-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:67:13-69:85
-110                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-110-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:68:17-109
-111                android:value="com.google.firebase.components.ComponentRegistrar" />
-111-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:69:17-82
-112            <meta-data
-112-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\0ceeadd38a3495136fe9bc2841c9ea3f\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
-113                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-113-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\0ceeadd38a3495136fe9bc2841c9ea3f\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
-114                android:value="com.google.firebase.components.ComponentRegistrar" />
-114-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\0ceeadd38a3495136fe9bc2841c9ea3f\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
-115            <meta-data
-115-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\ismail\.gradle\caches\transforms-3\84292762193280f926936dda21f69489\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:19:13-21:85
-116                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-116-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\ismail\.gradle\caches\transforms-3\84292762193280f926936dda21f69489\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:20:17-111
-117                android:value="com.google.firebase.components.ComponentRegistrar" />
-117-->[com.google.firebase:firebase-firestore:24.4.0] C:\Users\ismail\.gradle\caches\transforms-3\84292762193280f926936dda21f69489\transformed\jetified-firebase-firestore-24.4.0\AndroidManifest.xml:21:17-82
-118            <meta-data
-118-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\ismail\.gradle\caches\transforms-3\78c309417c947acdc5ff1ba0e69e000c\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:17:13-19:85
-119                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-119-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\ismail\.gradle\caches\transforms-3\78c309417c947acdc5ff1ba0e69e000c\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:18:17-127
-120                android:value="com.google.firebase.components.ComponentRegistrar" />
-120-->[com.google.firebase:firebase-installations:17.1.0] C:\Users\ismail\.gradle\caches\transforms-3\78c309417c947acdc5ff1ba0e69e000c\transformed\jetified-firebase-installations-17.1.0\AndroidManifest.xml:19:17-82
-121            <meta-data
-121-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\ismail\.gradle\caches\transforms-3\9ca4cd782ec62ebe4c3d80747c229c0d\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
-122                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-122-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\ismail\.gradle\caches\transforms-3\9ca4cd782ec62ebe4c3d80747c229c0d\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
-123                android:value="com.google.firebase.components.ComponentRegistrar" />
-123-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\ismail\.gradle\caches\transforms-3\9ca4cd782ec62ebe4c3d80747c229c0d\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
-124        </service>
-125        <service
-125-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-17:72
-126            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
-126-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-107
-127            android:exported="false"
-127-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
-128            android:permission="android.permission.BIND_JOB_SERVICE" />
-128-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-69
-129        <service
-129-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-24:19
-130            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
-130-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-97
-131            android:exported="false" >
-131-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-37
-132            <intent-filter>
-132-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-23:29
-133                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-133-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-78
-133-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-75
-134            </intent-filter>
-135        </service>
-136
-137        <receiver
-137-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-33:20
-138            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
-138-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-98
-139            android:exported="true"
-139-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-36
-140            android:permission="com.google.android.c2dm.permission.SEND" >
-140-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-73
-141            <intent-filter>
-141-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-32:29
-142                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-142-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-81
-142-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-78
-143            </intent-filter>
-144        </receiver>
-145
-146        <provider
-146-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:41:9-45:38
-147            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
-147-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-102
-148            android:authorities="com.smartersvision.food_delivery_app_2.flutterfirebasemessaginginitprovider"
-148-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-88
-149            android:exported="false"
-149-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-37
-150            android:initOrder="99" />
-150-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-35
-151
-152        <service
-152-->[:geolocator_android] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:56
-153            android:name="com.baseflow.geolocator.GeolocatorLocationService"
-153-->[:geolocator_android] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-77
-154            android:enabled="true"
-154-->[:geolocator_android] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-35
-155            android:exported="false"
-155-->[:geolocator_android] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
-156            android:foregroundServiceType="location" />
-156-->[:geolocator_android] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-53
-157
-158        <activity
-158-->[:url_launcher_android] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-11:74
-159            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
-159-->[:url_launcher_android] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-74
+29    <queries>
+29-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\6a85c253164a2f362b4fe4d4d22c0568\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
+30
+31        <!-- Needs to be explicitly declared on Android R+ -->
+32        <package android:name="com.google.android.apps.maps" />
+32-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\6a85c253164a2f362b4fe4d4d22c0568\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
+32-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\6a85c253164a2f362b4fe4d4d22c0568\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
+33    </queries>
+34    <!--
+35 io.flutter.app.FlutterApplication is an android.app.Application that
+36         calls FlutterMain.startInitialization(this); in its onCreate method.
+37         In most cases you can leave this as-is, but you if you want to provide
+38         additional functionality it is fine to subclass or reimplement
+39         FlutterApplication and put your custom class here.
+40    -->
+41    <application
+42        android:name="android.app.Application"
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.8.0] C:\Users\ismail\.gradle\caches\transforms-3\fab0103c52346cfd5a807757b9adb334\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+44        android:debuggable="true"
+45        android:icon="@mipmap/ic_launcher"
+46        android:label="Food Delivery App" >
+47        <meta-data
+48            android:name="com.google.android.geo.API_KEY"
+49            android:value="AIzaSyDdyth2EiAjU9m9eE_obC5fnTY1yeVNTJU" />
+50        <meta-data
+51            android:name="com.google.firebase.messaging.default_notification_icon"
+52            android:resource="@mipmap/ic_notification" />
+53
+54        <activity
+55            android:name="com.smartersvision.food_delivery_app_2.MainActivity"
+56            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+57            android:exported="true"
+58            android:hardwareAccelerated="true"
+59            android:launchMode="singleTop"
+60            android:theme="@style/LaunchTheme"
+61            android:windowSoftInputMode="adjustResize" >
+62
+63            <!--
+64                 Specifies an Android theme to apply to this Activity as soon as
+65                 the Android process has started. This theme is visible to the user
+66                 while the Flutter UI initializes. After that, this theme continues
+67                 to determine the Window background behind the Flutter UI.
+68            -->
+69            <meta-data
+70                android:name="io.flutter.embedding.android.NormalTheme"
+71                android:resource="@style/NormalTheme" />
+72
+73            <intent-filter>
+74                <action android:name="android.intent.action.MAIN" />
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+77            </intent-filter>
+78            <intent-filter>
+79                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+81-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+82            </intent-filter>
+83        </activity>
+84        <!--
+85             Don't delete the meta-data below.
+86             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+87        -->
+88        <meta-data
+89            android:name="flutterEmbedding"
+90            android:value="2" />
+91
+92        <service
+92-->[:cloud_firestore] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:19
+93            android:name="com.google.firebase.components.ComponentDiscoveryService"
+93-->[:cloud_firestore] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:8:18-89
+94            android:directBootAware="true"
+94-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ismail\.gradle\caches\transforms-3\b05724dfa999333821582b296e4dc13e\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+95            android:exported="false" >
+95-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:68:13-37
+96            <meta-data
+96-->[:cloud_firestore] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+97                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+97-->[:cloud_firestore] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-134
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[:cloud_firestore] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\cloud_firestore\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+99            <meta-data
+99-->[:firebase_auth] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+100                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+100-->[:firebase_auth] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[:firebase_auth] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_auth\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+102            <meta-data
+102-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-38:85
+103                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+103-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:37:17-128
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:38:17-82
+105            <meta-data
+105-->[:firebase_core] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-11:85
+106                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+106-->[:firebase_core] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:17-124
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[:firebase_core] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:69:13-71:85
+109                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+109-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:70:17-109
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:71:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ismail\.gradle\caches\transforms-3\1908162b7ddca17bf895c0804e57adf4\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:55:13-57:85
+112                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+112-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ismail\.gradle\caches\transforms-3\1908162b7ddca17bf895c0804e57adf4\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:56:17-119
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ismail\.gradle\caches\transforms-3\1908162b7ddca17bf895c0804e57adf4\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:57:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\32a73874091aec9aece4da51e48c9de8\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+115                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+115-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\32a73874091aec9aece4da51e48c9de8\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\32a73874091aec9aece4da51e48c9de8\transformed\jetified-firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\ismail\.gradle\caches\transforms-3\f4a8ecf371cf37e23c317c00a5649f1d\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:19:13-21:85
+118                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+118-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\ismail\.gradle\caches\transforms-3\f4a8ecf371cf37e23c317c00a5649f1d\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:20:17-111
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-firestore:24.6.0] C:\Users\ismail\.gradle\caches\transforms-3\f4a8ecf371cf37e23c317c00a5649f1d\transformed\jetified-firebase-firestore-24.6.0\AndroidManifest.xml:21:17-82
+120            <meta-data
+120-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\ismail\.gradle\caches\transforms-3\5d084c75afcb772c5da8ccd7d01ac02b\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:31:13-33:85
+121                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+121-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\ismail\.gradle\caches\transforms-3\5d084c75afcb772c5da8ccd7d01ac02b\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:32:17-139
+122                android:value="com.google.firebase.components.ComponentRegistrar" />
+122-->[com.google.android.gms:play-services-measurement-api:21.2.2] C:\Users\ismail\.gradle\caches\transforms-3\5d084c75afcb772c5da8ccd7d01ac02b\transformed\jetified-play-services-measurement-api-21.2.2\AndroidManifest.xml:33:17-82
+123            <meta-data
+123-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\ismail\.gradle\caches\transforms-3\dea88909c49b8c584deb7809cfca5be1\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:27:13-29:85
+124                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+124-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\ismail\.gradle\caches\transforms-3\dea88909c49b8c584deb7809cfca5be1\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:28:17-115
+125                android:value="com.google.firebase.components.ComponentRegistrar" />
+125-->[com.google.firebase:firebase-datatransport:18.1.7] C:\Users\ismail\.gradle\caches\transforms-3\dea88909c49b8c584deb7809cfca5be1\transformed\jetified-firebase-datatransport-18.1.7\AndroidManifest.xml:29:17-82
+126            <meta-data
+126-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\ismail\.gradle\caches\transforms-3\caa689f10ecf4491c4aa1509bd24a62f\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+127                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+127-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\ismail\.gradle\caches\transforms-3\caa689f10ecf4491c4aa1509bd24a62f\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+128                android:value="com.google.firebase.components.ComponentRegistrar" />
+128-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\ismail\.gradle\caches\transforms-3\caa689f10ecf4491c4aa1509bd24a62f\transformed\jetified-firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+129        </service>
+130        <service
+130-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-17:72
+131            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+131-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-107
+132            android:exported="false"
+132-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+133            android:permission="android.permission.BIND_JOB_SERVICE" />
+133-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-69
+134        <service
+134-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-24:19
+135            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+135-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-97
+136            android:exported="false" >
+136-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-37
+137            <intent-filter>
+137-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-23:29
+138                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+138-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-78
+138-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-75
+139            </intent-filter>
+140        </service>
+141
+142        <receiver
+142-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-33:20
+143            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+143-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-98
+144            android:exported="true"
+144-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-36
+145            android:permission="com.google.android.c2dm.permission.SEND" >
+145-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-73
+146            <intent-filter>
+146-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-32:29
+147                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+147-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-81
+147-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-78
+148            </intent-filter>
+149        </receiver>
+150
+151        <provider
+151-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:41:9-45:38
+152            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+152-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-102
+153            android:authorities="com.smartersvision.food_delivery_app_2.flutterfirebasemessaginginitprovider"
+153-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-88
+154            android:exported="false"
+154-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-37
+155            android:initOrder="99" />
+155-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-35
+156
+157        <service
+157-->[:geolocator_android] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:56
+158            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+158-->[:geolocator_android] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-77
+159            android:enabled="true"
+159-->[:geolocator_android] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-35
 160            android:exported="false"
-160-->[:url_launcher_android] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
-161            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-161-->[:url_launcher_android] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-71
+160-->[:geolocator_android] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+161            android:foregroundServiceType="location" />
+161-->[:geolocator_android] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-53
 162
-163        <service
-163-->[:location] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-15:56
-164            android:name="com.lyokone.location.FlutterLocationService"
-164-->[:location] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-71
-165            android:enabled="true"
-165-->[:location] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-35
-166            android:exported="false"
-166-->[:location] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-37
-167            android:foregroundServiceType="location" />
-167-->[:location] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-53
-168
-169        <uses-library
-169-->[androidx.window:window:1.0.0-beta04] C:\Users\ismail\.gradle\caches\transforms-3\a1eabe2daf4e2a5536509839746d0ddd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
-170            android:name="androidx.window.extensions"
-170-->[androidx.window:window:1.0.0-beta04] C:\Users\ismail\.gradle\caches\transforms-3\a1eabe2daf4e2a5536509839746d0ddd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
-171            android:required="false" />
-171-->[androidx.window:window:1.0.0-beta04] C:\Users\ismail\.gradle\caches\transforms-3\a1eabe2daf4e2a5536509839746d0ddd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
-172        <uses-library
-172-->[androidx.window:window:1.0.0-beta04] C:\Users\ismail\.gradle\caches\transforms-3\a1eabe2daf4e2a5536509839746d0ddd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
-173            android:name="androidx.window.sidecar"
-173-->[androidx.window:window:1.0.0-beta04] C:\Users\ismail\.gradle\caches\transforms-3\a1eabe2daf4e2a5536509839746d0ddd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
-174            android:required="false" />
-174-->[androidx.window:window:1.0.0-beta04] C:\Users\ismail\.gradle\caches\transforms-3\a1eabe2daf4e2a5536509839746d0ddd\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
-175
-176        <receiver
-176-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\ismail\.gradle\caches\transforms-3\41460b8f405a18ccf2e4749bdee3e4c6\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:31:9-38:20
-177            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-177-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\ismail\.gradle\caches\transforms-3\41460b8f405a18ccf2e4749bdee3e4c6\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:32:13-78
-178            android:exported="true"
-178-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\ismail\.gradle\caches\transforms-3\41460b8f405a18ccf2e4749bdee3e4c6\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:33:13-36
-179            android:permission="com.google.android.c2dm.permission.SEND" >
-179-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\ismail\.gradle\caches\transforms-3\41460b8f405a18ccf2e4749bdee3e4c6\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:34:13-73
+163        <activity
+163-->[:url_launcher_android] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-11:74
+164            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+164-->[:url_launcher_android] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-74
+165            android:exported="false"
+165-->[:url_launcher_android] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
+166            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+166-->[:url_launcher_android] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-71
+167
+168        <service
+168-->[:location] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:11:9-15:56
+169            android:name="com.lyokone.location.FlutterLocationService"
+169-->[:location] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-71
+170            android:enabled="true"
+170-->[:location] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-35
+171            android:exported="false"
+171-->[:location] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-37
+172            android:foregroundServiceType="location" />
+172-->[:location] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\location\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-53
+173
+174        <activity
+174-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:29:9-46:20
+175            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+175-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:30:13-80
+176            android:excludeFromRecents="true"
+176-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:31:13-46
+177            android:exported="true"
+177-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:32:13-36
+178            android:launchMode="singleTask"
+178-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:33:13-44
+179            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+179-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:34:13-72
 180            <intent-filter>
-180-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-32:29
-181                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-181-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-81
-181-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-78
-182            </intent-filter>
-183        </receiver>
-184        <!--
-185             FirebaseMessagingService performs security checks at runtime,
-186             but set to not exported to explicitly avoid allowing another app to call it.
-187        -->
-188        <service
-188-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\ismail\.gradle\caches\transforms-3\41460b8f405a18ccf2e4749bdee3e4c6\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:44:9-51:19
-189            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-189-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\ismail\.gradle\caches\transforms-3\41460b8f405a18ccf2e4749bdee3e4c6\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:45:13-82
-190            android:directBootAware="true"
-190-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\ismail\.gradle\caches\transforms-3\41460b8f405a18ccf2e4749bdee3e4c6\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:46:13-43
-191            android:exported="false" >
-191-->[com.google.firebase:firebase-messaging:23.1.0] C:\Users\ismail\.gradle\caches\transforms-3\41460b8f405a18ccf2e4749bdee3e4c6\transformed\jetified-firebase-messaging-23.1.0\AndroidManifest.xml:47:13-37
-192            <intent-filter android:priority="-500" >
-192-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-23:29
-193                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-193-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-78
-193-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-75
-194            </intent-filter>
-195        </service>
-196
-197        <activity
-197-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
-198            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-198-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
-199            android:excludeFromRecents="true"
-199-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
-200            android:exported="true"
-200-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
-201            android:launchMode="singleTask"
-201-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
-202            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-202-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
-203            <intent-filter>
-203-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
-204                <action android:name="android.intent.action.VIEW" />
-204-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
-204-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
-205
-206                <category android:name="android.intent.category.DEFAULT" />
-206-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
-206-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
-207                <category android:name="android.intent.category.BROWSABLE" />
-207-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
-207-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
-208
-209                <data
-209-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
-210                    android:host="firebase.auth"
-210-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
-211                    android:path="/"
-211-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
-212                    android:scheme="genericidp" />
-212-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
-213            </intent-filter>
-214        </activity>
-215        <activity
-215-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
-216            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-216-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
-217            android:excludeFromRecents="true"
-217-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
-218            android:exported="true"
-218-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
-219            android:launchMode="singleTask"
-219-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
-220            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-220-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
-221            <intent-filter>
-221-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
-222                <action android:name="android.intent.action.VIEW" />
-222-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
-222-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
-223
-224                <category android:name="android.intent.category.DEFAULT" />
-224-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:17-76
-224-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:36:27-73
-225                <category android:name="android.intent.category.BROWSABLE" />
-225-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:17-78
-225-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:37:27-75
-226
-227                <data
-227-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:39:17-42:51
-228                    android:host="firebase.auth"
-228-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:40:21-49
-229                    android:path="/"
-229-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:41:21-37
-230                    android:scheme="recaptcha" />
-230-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\ismail\.gradle\caches\transforms-3\79a02c1e26600c41413e103f9f2bd347\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:42:21-48
-231            </intent-filter>
-232        </activity> <!-- Needs to be explicitly declared on P+ -->
-233        <uses-library
-233-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\fe6b7ba774fc4ff778fdc79efa899f37\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
-234            android:name="org.apache.http.legacy"
-234-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\fe6b7ba774fc4ff778fdc79efa899f37\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
-235            android:required="false" />
-235-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\fe6b7ba774fc4ff778fdc79efa899f37\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
-236
-237        <activity
-237-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ismail\.gradle\caches\transforms-3\50367d8b369ff4180640f699d5da8c1e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
-238            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-238-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ismail\.gradle\caches\transforms-3\50367d8b369ff4180640f699d5da8c1e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
-239            android:exported="false"
-239-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ismail\.gradle\caches\transforms-3\50367d8b369ff4180640f699d5da8c1e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
-240            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-240-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ismail\.gradle\caches\transforms-3\50367d8b369ff4180640f699d5da8c1e\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
-241
-242        <provider
-242-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ismail\.gradle\caches\transforms-3\1561ba62c4e960f7786d872d29bc488c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:25:9-30:39
-243            android:name="com.google.firebase.provider.FirebaseInitProvider"
-243-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ismail\.gradle\caches\transforms-3\1561ba62c4e960f7786d872d29bc488c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:26:13-77
-244            android:authorities="com.smartersvision.food_delivery_app_2.firebaseinitprovider"
-244-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ismail\.gradle\caches\transforms-3\1561ba62c4e960f7786d872d29bc488c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:27:13-72
-245            android:directBootAware="true"
-245-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ismail\.gradle\caches\transforms-3\1561ba62c4e960f7786d872d29bc488c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
-246            android:exported="false"
-246-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ismail\.gradle\caches\transforms-3\1561ba62c4e960f7786d872d29bc488c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:29:13-37
-247            android:initOrder="100" />
-247-->[com.google.firebase:firebase-common:20.2.0] C:\Users\ismail\.gradle\caches\transforms-3\1561ba62c4e960f7786d872d29bc488c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:30:13-36
-248
-249        <meta-data
-249-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\d30cd6fad6d4737ca903834dfea681b6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-250            android:name="com.google.android.gms.version"
-250-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\d30cd6fad6d4737ca903834dfea681b6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-251            android:value="@integer/google_play_services_version" />
-251-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\d30cd6fad6d4737ca903834dfea681b6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-252
-253        <service
-253-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\b77c80b5eb099389e555dca9d71c2c7d\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
-254            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-254-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\b77c80b5eb099389e555dca9d71c2c7d\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
-255            android:exported="false" >
-255-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\b77c80b5eb099389e555dca9d71c2c7d\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
-256            <meta-data
-256-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\b77c80b5eb099389e555dca9d71c2c7d\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
-257                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-257-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\b77c80b5eb099389e555dca9d71c2c7d\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
-258                android:value="cct" />
-258-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\b77c80b5eb099389e555dca9d71c2c7d\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
-259        </service>
-260        <service
-260-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\8987e10a1cae338ce405ee7abcd6b014\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
-261            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-261-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\8987e10a1cae338ce405ee7abcd6b014\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
-262            android:exported="false"
-262-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\8987e10a1cae338ce405ee7abcd6b014\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
-263            android:permission="android.permission.BIND_JOB_SERVICE" >
-263-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\8987e10a1cae338ce405ee7abcd6b014\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
-264        </service>
-265
-266        <receiver
-266-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\8987e10a1cae338ce405ee7abcd6b014\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
-267            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-267-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\8987e10a1cae338ce405ee7abcd6b014\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
-268            android:exported="false" />
-268-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\8987e10a1cae338ce405ee7abcd6b014\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
-269    </application>
-270
-271</manifest>
+180-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:35:13-45:29
+181                <action android:name="android.intent.action.VIEW" />
+181-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+181-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+182
+183                <category android:name="android.intent.category.DEFAULT" />
+183-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+183-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+184                <category android:name="android.intent.category.BROWSABLE" />
+184-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+184-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+185
+186                <data
+186-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+187                    android:host="firebase.auth"
+187-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+188                    android:path="/"
+188-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+189                    android:scheme="genericidp" />
+189-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+190            </intent-filter>
+191        </activity>
+192        <activity
+192-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:47:9-64:20
+193            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+193-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:48:13-79
+194            android:excludeFromRecents="true"
+194-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:49:13-46
+195            android:exported="true"
+195-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:50:13-36
+196            android:launchMode="singleTask"
+196-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:51:13-44
+197            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+197-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:52:13-72
+198            <intent-filter>
+198-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:53:13-63:29
+199                <action android:name="android.intent.action.VIEW" />
+199-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:17-69
+199-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:36:25-66
+200
+201                <category android:name="android.intent.category.DEFAULT" />
+201-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:17-76
+201-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:38:27-73
+202                <category android:name="android.intent.category.BROWSABLE" />
+202-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:17-78
+202-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:39:27-75
+203
+204                <data
+204-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:41:17-44:51
+205                    android:host="firebase.auth"
+205-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:42:21-49
+206                    android:path="/"
+206-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:43:21-37
+207                    android:scheme="recaptcha" />
+207-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\ismail\.gradle\caches\transforms-3\8589fd5e8b295f6596d0b8e6114adf96\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:44:21-48
+208            </intent-filter>
+209        </activity>
+210
+211        <uses-library
+211-->[androidx.window:window:1.0.0-beta04] C:\Users\ismail\.gradle\caches\transforms-3\efe7256cc17a08545443fa516369cdb0\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+212            android:name="androidx.window.extensions"
+212-->[androidx.window:window:1.0.0-beta04] C:\Users\ismail\.gradle\caches\transforms-3\efe7256cc17a08545443fa516369cdb0\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+213            android:required="false" />
+213-->[androidx.window:window:1.0.0-beta04] C:\Users\ismail\.gradle\caches\transforms-3\efe7256cc17a08545443fa516369cdb0\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+214        <uses-library
+214-->[androidx.window:window:1.0.0-beta04] C:\Users\ismail\.gradle\caches\transforms-3\efe7256cc17a08545443fa516369cdb0\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+215            android:name="androidx.window.sidecar"
+215-->[androidx.window:window:1.0.0-beta04] C:\Users\ismail\.gradle\caches\transforms-3\efe7256cc17a08545443fa516369cdb0\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+216            android:required="false" />
+216-->[androidx.window:window:1.0.0-beta04] C:\Users\ismail\.gradle\caches\transforms-3\efe7256cc17a08545443fa516369cdb0\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+217
+218        <receiver
+218-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ismail\.gradle\caches\transforms-3\1908162b7ddca17bf895c0804e57adf4\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:31:9-38:20
+219            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+219-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ismail\.gradle\caches\transforms-3\1908162b7ddca17bf895c0804e57adf4\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:32:13-78
+220            android:exported="true"
+220-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ismail\.gradle\caches\transforms-3\1908162b7ddca17bf895c0804e57adf4\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:33:13-36
+221            android:permission="com.google.android.c2dm.permission.SEND" >
+221-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ismail\.gradle\caches\transforms-3\1908162b7ddca17bf895c0804e57adf4\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:34:13-73
+222            <intent-filter>
+222-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-32:29
+223                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+223-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-81
+223-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-78
+224            </intent-filter>
+225        </receiver>
+226        <!--
+227             FirebaseMessagingService performs security checks at runtime,
+228             but set to not exported to explicitly avoid allowing another app to call it.
+229        -->
+230        <service
+230-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ismail\.gradle\caches\transforms-3\1908162b7ddca17bf895c0804e57adf4\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:44:9-51:19
+231            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+231-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ismail\.gradle\caches\transforms-3\1908162b7ddca17bf895c0804e57adf4\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:45:13-82
+232            android:directBootAware="true"
+232-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ismail\.gradle\caches\transforms-3\1908162b7ddca17bf895c0804e57adf4\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:46:13-43
+233            android:exported="false" >
+233-->[com.google.firebase:firebase-messaging:23.1.2] C:\Users\ismail\.gradle\caches\transforms-3\1908162b7ddca17bf895c0804e57adf4\transformed\jetified-firebase-messaging-23.1.2\AndroidManifest.xml:47:13-37
+234            <intent-filter android:priority="-500" >
+234-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-23:29
+235                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+235-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-78
+235-->[:firebase_messaging] C:\Users\ismail\Desktop\HelloDigital\FoodApp H-D\Client Boy\flutter application\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-75
+236            </intent-filter>
+237        </service>
+238
+239        <receiver
+239-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\ismail\.gradle\caches\transforms-3\a88006ba53f430b436e7312a4c4bb4d4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:29:9-33:20
+240            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+240-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\ismail\.gradle\caches\transforms-3\a88006ba53f430b436e7312a4c4bb4d4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:30:13-85
+241            android:enabled="true"
+241-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\ismail\.gradle\caches\transforms-3\a88006ba53f430b436e7312a4c4bb4d4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:31:13-35
+242            android:exported="false" >
+242-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\ismail\.gradle\caches\transforms-3\a88006ba53f430b436e7312a4c4bb4d4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:32:13-37
+243        </receiver>
+244
+245        <service
+245-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\ismail\.gradle\caches\transforms-3\a88006ba53f430b436e7312a4c4bb4d4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:35:9-38:40
+246            android:name="com.google.android.gms.measurement.AppMeasurementService"
+246-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\ismail\.gradle\caches\transforms-3\a88006ba53f430b436e7312a4c4bb4d4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:36:13-84
+247            android:enabled="true"
+247-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\ismail\.gradle\caches\transforms-3\a88006ba53f430b436e7312a4c4bb4d4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:37:13-35
+248            android:exported="false" />
+248-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\ismail\.gradle\caches\transforms-3\a88006ba53f430b436e7312a4c4bb4d4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:38:13-37
+249        <service
+249-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\ismail\.gradle\caches\transforms-3\a88006ba53f430b436e7312a4c4bb4d4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:39:9-43:72
+250            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+250-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\ismail\.gradle\caches\transforms-3\a88006ba53f430b436e7312a4c4bb4d4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:40:13-87
+251            android:enabled="true"
+251-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\ismail\.gradle\caches\transforms-3\a88006ba53f430b436e7312a4c4bb4d4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:41:13-35
+252            android:exported="false"
+252-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\ismail\.gradle\caches\transforms-3\a88006ba53f430b436e7312a4c4bb4d4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:42:13-37
+253            android:permission="android.permission.BIND_JOB_SERVICE" />
+253-->[com.google.android.gms:play-services-measurement:21.2.2] C:\Users\ismail\.gradle\caches\transforms-3\a88006ba53f430b436e7312a4c4bb4d4\transformed\jetified-play-services-measurement-21.2.2\AndroidManifest.xml:43:13-69
+254
+255        <provider
+255-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ismail\.gradle\caches\transforms-3\b05724dfa999333821582b296e4dc13e\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+256            android:name="com.google.firebase.provider.FirebaseInitProvider"
+256-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ismail\.gradle\caches\transforms-3\b05724dfa999333821582b296e4dc13e\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+257            android:authorities="com.smartersvision.food_delivery_app_2.firebaseinitprovider"
+257-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ismail\.gradle\caches\transforms-3\b05724dfa999333821582b296e4dc13e\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+258            android:directBootAware="true"
+258-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ismail\.gradle\caches\transforms-3\b05724dfa999333821582b296e4dc13e\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+259            android:exported="false"
+259-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ismail\.gradle\caches\transforms-3\b05724dfa999333821582b296e4dc13e\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+260            android:initOrder="100" /> <!-- Needs to be explicitly declared on P+ -->
+260-->[com.google.firebase:firebase-common:20.3.2] C:\Users\ismail\.gradle\caches\transforms-3\b05724dfa999333821582b296e4dc13e\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+261        <uses-library
+261-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\6a85c253164a2f362b4fe4d4d22c0568\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:39:9-41:40
+262            android:name="org.apache.http.legacy"
+262-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\6a85c253164a2f362b4fe4d4d22c0568\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:40:13-50
+263            android:required="false" />
+263-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\6a85c253164a2f362b4fe4d4d22c0568\transformed\jetified-play-services-maps-18.1.0\AndroidManifest.xml:41:13-37
+264
+265        <activity
+265-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ismail\.gradle\caches\transforms-3\405cce4bb0a2cab1b5b8a6903ab31ae5\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+266            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+266-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ismail\.gradle\caches\transforms-3\405cce4bb0a2cab1b5b8a6903ab31ae5\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+267            android:exported="false"
+267-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ismail\.gradle\caches\transforms-3\405cce4bb0a2cab1b5b8a6903ab31ae5\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+268            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+268-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\ismail\.gradle\caches\transforms-3\405cce4bb0a2cab1b5b8a6903ab31ae5\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+269
+270        <meta-data
+270-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\e9b760b127631d269a16438fe3de0741\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+271            android:name="com.google.android.gms.version"
+271-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\e9b760b127631d269a16438fe3de0741\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+272            android:value="@integer/google_play_services_version" />
+272-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ismail\.gradle\caches\transforms-3\e9b760b127631d269a16438fe3de0741\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+273
+274        <service
+274-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\a0fbcd5151fd78638e71950352914c0b\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:28:9-34:19
+275            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+275-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\a0fbcd5151fd78638e71950352914c0b\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:29:13-103
+276            android:exported="false" >
+276-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\a0fbcd5151fd78638e71950352914c0b\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:30:13-37
+277            <meta-data
+277-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\a0fbcd5151fd78638e71950352914c0b\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:31:13-33:39
+278                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+278-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\a0fbcd5151fd78638e71950352914c0b\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:32:17-94
+279                android:value="cct" />
+279-->[com.google.android.datatransport:transport-backend-cct:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\a0fbcd5151fd78638e71950352914c0b\transformed\jetified-transport-backend-cct-3.1.8\AndroidManifest.xml:33:17-36
+280        </service>
+281        <service
+281-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\8de6cc18b00db46fdbe4ae0d25ef657b\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:26:9-30:19
+282            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+282-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\8de6cc18b00db46fdbe4ae0d25ef657b\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:27:13-117
+283            android:exported="false"
+283-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\8de6cc18b00db46fdbe4ae0d25ef657b\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:28:13-37
+284            android:permission="android.permission.BIND_JOB_SERVICE" >
+284-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\8de6cc18b00db46fdbe4ae0d25ef657b\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:29:13-69
+285        </service>
+286
+287        <receiver
+287-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\8de6cc18b00db46fdbe4ae0d25ef657b\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:32:9-34:40
+288            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+288-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\8de6cc18b00db46fdbe4ae0d25ef657b\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:33:13-132
+289            android:exported="false" />
+289-->[com.google.android.datatransport:transport-runtime:3.1.8] C:\Users\ismail\.gradle\caches\transforms-3\8de6cc18b00db46fdbe4ae0d25ef657b\transformed\jetified-transport-runtime-3.1.8\AndroidManifest.xml:34:13-37
+290    </application>
+291
+292</manifest>

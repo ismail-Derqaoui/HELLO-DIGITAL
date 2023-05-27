@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "712666927026",
+    "firebase_url": "https://fooddeliver192.firebaseio.com",
+    "project_id": "fooddeliver192",
+    "storage_bucket": "fooddeliver192.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712666927026:android:3df2b8eb7bb9b9df96deab",
+        "android_client_info": {
+          "package_name": "com.smartersvision.food_delivery_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712666927026-tiebtpficqog3dhskbnsgl77291t8t6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCOwMtkYXmDXtI5UkKmNoLQRHd1BUHF5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712666927026-2m5r07iktjit4e5baa9h7p6i3fe4nmu3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "712666927026-itqb58vbepe03jjflgvqiep06o1qijeh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.smartersvision.food-delivery-owner"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712666927026:android:7bbd44432a0b43df96deab",
+        "android_client_info": {
+          "package_name": "com.smartersvision.food_delivery_app_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712666927026-76bla2qpcoifenk4956ikjdhgu82082j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartersvision.food_delivery_app_2",
+            "certificate_hash": "4f2dc237bded54fb051fd2c5049563753e5db2ea"
+          }
+        },
+        {
+          "client_id": "712666927026-tiebtpficqog3dhskbnsgl77291t8t6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCOwMtkYXmDXtI5UkKmNoLQRHd1BUHF5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712666927026-2m5r07iktjit4e5baa9h7p6i3fe4nmu3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "712666927026-itqb58vbepe03jjflgvqiep06o1qijeh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.smartersvision.food-delivery-owner"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712666927026:android:0563eab41b75de6496deab",
+        "android_client_info": {
+          "package_name": "com.smartersvision.food_delivery_owner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712666927026-tiebtpficqog3dhskbnsgl77291t8t6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCOwMtkYXmDXtI5UkKmNoLQRHd1BUHF5M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712666927026-2m5r07iktjit4e5baa9h7p6i3fe4nmu3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "712666927026-itqb58vbepe03jjflgvqiep06o1qijeh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.smartersvision.food-delivery-owner"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

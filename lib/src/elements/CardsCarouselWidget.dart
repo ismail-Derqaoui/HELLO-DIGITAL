@@ -61,7 +61,7 @@ class _CardsCarouselWidgetState extends State<CardsCarouselWidget> {
                 children: List.generate(widget.restaurantsList.length, (index) {
                   return GestureDetector(
                     onTap: () {
-                      Navigator.of(context).pushNamed('/Details',
+                      Navigator.of(context).pushNamed('/Menu',
                           arguments: RouteArgument(
                             id: '0',
                             param: widget.restaurantsList.elementAt(index).id,

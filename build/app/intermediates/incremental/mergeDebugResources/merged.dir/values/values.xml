@@ -125,7 +125,7 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="copy_toast_msg">Link copied to clipboard</string>
-    <string name="default_web_client_id" translatable="false">712666927026-tiebtpficqog3dhskbnsgl77291t8t6e.apps.googleusercontent.com</string>
+    <string name="default_web_client_id" translatable="false">155100117092-933l86pelngbpdsep2j7tls1teqjr928.apps.googleusercontent.com</string>
     <string name="exo_download_completed">Download completed</string>
     <string name="exo_download_description">Download</string>
     <string name="exo_download_downloading">Downloading</string>
@@ -139,13 +139,13 @@
     <string name="fallback_menu_item_open_in_browser">Open in browser</string>
     <string name="fallback_menu_item_share_link">Share link</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="firebase_database_url" translatable="false">https://fooddeliver192.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">712666927026</string>
-    <string name="google_api_key" translatable="false">AIzaSyBCOwMtkYXmDXtI5UkKmNoLQRHd1BUHF5M</string>
-    <string name="google_app_id" translatable="false">1:712666927026:android:7bbd44432a0b43df96deab</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBCOwMtkYXmDXtI5UkKmNoLQRHd1BUHF5M</string>
-    <string name="google_storage_bucket" translatable="false">fooddeliver192.appspot.com</string>
-    <string name="project_id" translatable="false">fooddeliver192</string>
+    <string name="firebase_database_url" translatable="false">https://soul-s-kitchen-default-rtdb.europe-west1.firebasedatabase.app</string>
+    <string name="gcm_defaultSenderId" translatable="false">155100117092</string>
+    <string name="google_api_key" translatable="false">AIzaSyDxMmcCvULJLiOx7uDZXPawGR_vNDbSZ0w</string>
+    <string name="google_app_id" translatable="false">1:155100117092:android:062bcb63aa45ffceabc771</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDxMmcCvULJLiOx7uDZXPawGR_vNDbSZ0w</string>
+    <string name="google_storage_bucket" translatable="false">soul-s-kitchen.appspot.com</string>
+    <string name="project_id" translatable="false">soul-s-kitchen</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <style name="LaunchTheme" parent="@android:style/Theme.Black.NoTitleBar">
         <!-- Show a splash screen on the activity. Automatically removed when

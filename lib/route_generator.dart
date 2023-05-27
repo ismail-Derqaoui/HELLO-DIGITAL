@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:food_delivery_app/src/pages/menu_list3.dart';
 import 'package:food_delivery_app/src/pages/messages.dart';
 import 'package:food_delivery_app/src/pages/notifications.dart';
 import 'package:food_delivery_app/src/pages/orders.dart';
@@ -71,10 +70,6 @@ class RouteGenerator {
       case '/Details':
         return MaterialPageRoute(
             builder: (_) => DetailsWidget(currentTab: args));
-      case '/FoodItems':
-        return MaterialPageRoute(
-          builder: (_) => FoodItemsPage(routeArgument: args as RouteArgument),
-        );
       case '/Menu':
         return MaterialPageRoute(
             builder: (_) => MenuWidget(routeArgument: args as RouteArgument));

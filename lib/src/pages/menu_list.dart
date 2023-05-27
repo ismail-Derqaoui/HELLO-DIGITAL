@@ -4,6 +4,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
 import '../../generated/l10n.dart';
+import '../controllers/food_controller.dart';
 import '../controllers/restaurant_controller.dart';
 import '../elements/CircularLoadingWidget.dart';
 import '../elements/DrawerWidget.dart';
@@ -27,18 +28,43 @@ class MenuWidget extends StatefulWidget {
 class _MenuWidgetState extends StateMVC<MenuWidget> {
   RestaurantController _con;
   List<String> selectedCategories;
+  FoodController _foodController;
 
   _MenuWidgetState() : super(RestaurantController()) {
     _con = controller;
+    _foodController = FoodController();
+  }
+  void refreshPage() {
+    Navigator.of(context).pushReplacement(
+      MaterialPageRoute(
+        builder: (context) => MenuWidget(
+          routeArgument: widget.routeArgument,
+        ),
+      ),
+    );
+  }
+
+  void showCartMessage() {
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text(S.of(context).this_food_was_added_to_cart),
+        duration: Duration(seconds: 3),
+      ),
+    );
   }
 
   @override
   void initState() {
-    _con.restaurant = widget.routeArgument.param as Restaurant;
-    _con.listenForTrendingFoods(_con.restaurant.id);
-    _con.listenForCategories(_con.restaurant.id);
+    _con.listenForRestaurant(id: widget.routeArgument.param).then((value) {
+      setState(() {
+        _con.restaurant = value as Restaurant;
+        print(_con.restaurant.toMap());
+      });
+    });
+    _con.listenForTrendingFoods(widget.routeArgument.param);
+    _con.listenForCategories(widget.routeArgument.param);
     selectedCategories = ['0'];
-    _con.listenForFoods(_con.restaurant.id);
+    _con.listenForFoods(widget.routeArgument.param);
     super.initState();
   }
 
@@ -54,9 +80,7 @@ class _MenuWidgetState extends StateMVC<MenuWidget> {
         automaticallyImplyLeading: false,
         leading: new IconButton(
           icon: new Icon(Icons.arrow_back, color: Theme.of(context).hintColor),
-          onPressed: () => Navigator.of(context).pushNamed('/Details',
-              arguments: RouteArgument(
-                  id: '0', param: _con.restaurant.id, heroTag: 'menu_tab')),
+          onPressed: () => Navigator.of(context).pushNamed('/Pages'),
         ),
         title: Text(
           _con.restaurant?.name ?? '',
@@ -85,7 +109,7 @@ class _MenuWidgetState extends StateMVC<MenuWidget> {
               padding: const EdgeInsets.symmetric(horizontal: 20),
               child: SearchBarWidget(),
             ),
-            /* ListTile(
+            ListTile(
               dense: true,
               contentPadding:
                   EdgeInsets.symmetric(horizontal: 20, vertical: 10),
@@ -102,8 +126,9 @@ class _MenuWidgetState extends StateMVC<MenuWidget> {
                 maxLines: 2,
                 style: Theme.of(context).textTheme.caption,
               ),
-            ), */
-            /*  FoodsCarouselWidget(heroTag: 'menu_trending_food', foodsList: _con.trendingFoods), */
+            ),
+            FoodsCarouselWidget(
+                heroTag: 'menu_trending_food', foodsList: _con.trendingFoods),
             ListTile(
               dense: true,
               contentPadding:
@@ -209,9 +234,13 @@ class _MenuWidgetState extends StateMVC<MenuWidget> {
                     },
                     itemBuilder: (context, index) {
                       return FoodItemWidget(
-                        heroTag: 'menu_list',
-                        food: _con.foods.elementAt(index),
-                      );
+                          heroTag: 'menu_list',
+                          food: _con.foods.elementAt(index),
+                          foodController: _foodController,
+                          onCartChanged: () {
+                            refreshPage();
+                            showCartMessage();
+                          });
                     },
                   ),
           ],
