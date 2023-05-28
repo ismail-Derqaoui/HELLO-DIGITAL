@@ -32,9 +32,9 @@ class ProfileAvatarWidget extends StatelessWidget {
 //                width: 50,
 //                height: 50,
 //                child: MaterialButton(
-      //elevation: 0,
-      //focusElevation: 0,
-      //highlightElevation: 0,
+                //elevation: 0,
+                //focusElevation: 0,
+                //highlightElevation: 0,
 //                  padding: EdgeInsets.all(0),
 //                  onPressed: () {},
 //                  child: Icon(Icons.add, color: Theme.of(context).primaryColor),
@@ -42,29 +42,22 @@ class ProfileAvatarWidget extends StatelessWidget {
 //                  shape: StadiumBorder(),
 //                ),
 //              ),
-                ClipRRect(
-                  borderRadius: BorderRadius.all(Radius.circular(300)),
-                  child: CachedNetworkImage(
-                    height: 135,
-                    width: 135,
-                    fit: BoxFit.cover,
-                    imageUrl: user.image?.url,
-                    placeholder: (context, url) => Image.asset(
-                      'assets/img/loading.gif',
-                      fit: BoxFit.cover,
-                      height: 135,
-                      width: 135,
-                    ),
-                    errorWidget: (context, url, error) => Icon(Icons.error),
+                CircleAvatar(
+                  radius: 70,
+                  backgroundColor: Theme.of(context).primaryColor,
+                  child: Icon(
+                    Icons.person,
+                    color: Theme.of(context).accentColor,
+                    size: 80,
                   ),
                 ),
 //              SizedBox(
 //                width: 50,
 //                height: 50,
 //                child: MaterialButton(
-      //elevation: 0,
-      //focusElevation: 0,
-      //highlightElevation: 0,
+                //elevation: 0,
+                //focusElevation: 0,
+                //highlightElevation: 0,
 //                  padding: EdgeInsets.all(0),
 //                  onPressed: () {},
 //                  child: Icon(Icons.chat, color: Theme.of(context).primaryColor),
@@ -82,13 +75,22 @@ class ProfileAvatarWidget extends StatelessWidget {
                 .headline5
                 .merge(TextStyle(color: Theme.of(context).primaryColor)),
           ),
-          Text(
-            user.address,
-            style: Theme.of(context)
-                .textTheme
-                .caption
-                .merge(TextStyle(color: Theme.of(context).primaryColor)),
-          ),
+          if (user.address != null)
+            Text(
+              user.address,
+              style: Theme.of(context)
+                  .textTheme
+                  .caption
+                  .merge(TextStyle(color: Theme.of(context).primaryColor)),
+            ),
+          if (user.address == null)
+            Text(
+              'No address',
+              style: Theme.of(context)
+                  .textTheme
+                  .caption
+                  .merge(TextStyle(color: Theme.of(context).primaryColor)),
+            )
         ],
       ),
     );

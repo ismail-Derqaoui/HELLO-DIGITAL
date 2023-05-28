@@ -41,25 +41,13 @@ class _DrawerWidgetState extends StateMVC<DrawerWidget> {
                     ),
                     currentAccountPicture: Stack(
                       children: [
-                        SizedBox(
-                          width: 80,
-                          height: 80,
-                          child: ClipRRect(
-                            borderRadius: BorderRadius.all(Radius.circular(80)),
-                            child: CachedNetworkImage(
-                              height: 80,
-                              width: double.infinity,
-                              fit: BoxFit.cover,
-                              imageUrl: currentUser.value.image.thumb,
-                              placeholder: (context, url) => Image.asset(
-                                'assets/img/loading.gif',
-                                fit: BoxFit.cover,
-                                width: double.infinity,
-                                height: 80,
-                              ),
-                              errorWidget: (context, url, error) =>
-                                  Icon(Icons.error_outline),
-                            ),
+                        CircleAvatar(
+                          radius: 40,
+                          backgroundColor: Theme.of(context).primaryColor,
+                          child: Icon(
+                            Icons.person,
+                            color: Theme.of(context).accentColor,
+                            size: 40,
                           ),
                         ),
                         Positioned(
@@ -72,7 +60,7 @@ class _DrawerWidgetState extends StateMVC<DrawerWidget> {
                                   size: 24,
                                 )
                               : SizedBox(),
-                        )
+                        ),
                       ],
                     ),
                   )

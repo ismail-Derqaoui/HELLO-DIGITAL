@@ -36,7 +36,9 @@ class User {
         phone = "";
       }
       try {
-        verifiedPhone = jsonMap['custom_fields']['verifiedPhone']['view'] == '1' ? true : false;
+        verifiedPhone = jsonMap['custom_fields']['verifiedPhone']['view'] == '1'
+            ? true
+            : false;
       } catch (e) {
         verifiedPhone = false;
       }
@@ -50,7 +52,9 @@ class User {
       } catch (e) {
         bio = "";
       }
-      image = jsonMap['media'] != null && (jsonMap['media'] as List).length > 0 ? Media.fromJSON(jsonMap['media'][0]) : new Media();
+      image = jsonMap['media'] != null && (jsonMap['media'] as List).length > 0
+          ? Media.fromJSON(jsonMap['media'][0])
+          : new Media();
     } catch (e) {
       print(e);
     }
@@ -79,6 +83,10 @@ class User {
     map["id"] = id;
     map["email"] = email;
     map["name"] = name;
+    map["phone"] = phone;
+    map["verifiedPhone"] = verifiedPhone;
+    map["address"] = address;
+    map["bio"] = bio;
     map["thumb"] = image?.thumb;
     map["device_token"] = deviceToken;
     return map;
@@ -92,6 +100,11 @@ class User {
   }
 
   bool profileCompleted() {
-    return address != null && address != '' && phone != null && phone != '' && verifiedPhone != null && verifiedPhone;
+    return address != null &&
+        address != '' &&
+        phone != null &&
+        phone != '' &&
+        verifiedPhone != null &&
+        verifiedPhone;
   }
 }

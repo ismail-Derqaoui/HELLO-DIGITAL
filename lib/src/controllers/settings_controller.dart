@@ -31,10 +31,11 @@ class SettingsController extends ControllerMVC {
         scaffoldKey.currentContext,
         MaterialPageRoute(
             builder: (context) => MobileVerification2(
-              onVerified: (v) {
-                Navigator.of(scaffoldKey.currentContext).pushNamed('/Settings');
-              },
-            )),
+                  onVerified: (v) {
+                    Navigator.of(scaffoldKey.currentContext)
+                        .pushNamed('/Settings');
+                  },
+                )),
       );
     };
     final PhoneVerificationCompleted _verifiedSuccess = (AuthCredential auth) {
@@ -61,8 +62,16 @@ class SettingsController extends ControllerMVC {
     repository.update(user).then((value) {
       setState(() {});
       ScaffoldMessenger.of(scaffoldKey?.currentContext).showSnackBar(SnackBar(
-        content: Text(S.of(state.context).profile_settings_updated_successfully),
+        content:
+            Text(S.of(state.context).profile_settings_updated_successfully),
       ));
+    });
+  }
+
+  void updateRegister(userModel.User user) async {
+    user.deviceToken = null;
+    repository.update(user).then((value) {
+      setState(() {});
     });
   }
 
@@ -70,7 +79,8 @@ class SettingsController extends ControllerMVC {
     repository.setCreditCard(creditCard).then((value) {
       setState(() {});
       ScaffoldMessenger.of(scaffoldKey?.currentContext).showSnackBar(SnackBar(
-        content: Text(S.of(state.context).payment_settings_updated_successfully),
+        content:
+            Text(S.of(state.context).payment_settings_updated_successfully),
       ));
     });
   }

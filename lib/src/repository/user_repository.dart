@@ -30,6 +30,7 @@ Future<userModel.User> login(userModel.User user) async {
   } else {
     throw new Exception(response.body);
   }
+
   return currentUser.value;
 }
 
@@ -44,6 +45,7 @@ Future<userModel.User> register(userModel.User user) async {
   );
   if (response.statusCode == 200) {
     setCurrentUser(response.body);
+
     currentUser.value =
         userModel.User.fromJSON(json.decode(response.body)['data']);
   } else {

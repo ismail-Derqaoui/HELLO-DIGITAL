@@ -257,7 +257,9 @@ class _SignUpWidgetState extends StateMVC<SignUpWidget> {
                               ),
                             );
                             bottomSheetController.closed.then((value) {
-                              _con.register();
+                              if (_con.user.verifiedPhone == true) {
+                                _con.register();
+                              }
                             });
                           }
                         },

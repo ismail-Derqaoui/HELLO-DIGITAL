@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
+import 'package:food_delivery_app/src/controllers/settings_controller.dart';
 import 'package:mvc_pattern/mvc_pattern.dart';
 
 import '../../generated/l10n.dart';
@@ -17,10 +18,12 @@ class UserController extends ControllerMVC {
   GlobalKey<ScaffoldState> scaffoldKey;
   FirebaseMessaging _firebaseMessaging;
   OverlayEntry loader;
+  SettingsController _settingsController;
 
   UserController() {
     loginFormKey = new GlobalKey<FormState>();
     this.scaffoldKey = new GlobalKey<ScaffoldState>();
+    _settingsController = SettingsController();
     _firebaseMessaging = FirebaseMessaging.instance;
     _firebaseMessaging.getToken().then((String _deviceToken) {
       user.deviceToken = _deviceToken;
@@ -96,12 +99,12 @@ class UserController extends ControllerMVC {
     loader = Helper.overlayLoader(state.context);
     FocusScope.of(state.context).unfocus();
     Overlay.of(state.context).insert(loader);
-    user.verifiedPhone = true;
+
     repository.register(user).then((value) {
       if (value != null && value.apiToken != null) {
-        user.verifiedPhone = true;
+        _settingsController.updateRegister(user);
         Navigator.of(scaffoldKey.currentContext)
-            .pushReplacementNamed('/Pages', arguments: 2);
+            .pushReplacementNamed('/Pages', arguments: 1);
       } else {
         ScaffoldMessenger.of(scaffoldKey?.currentContext).showSnackBar(SnackBar(
           content: Text(S.of(state.context).wrong_email_or_password),
