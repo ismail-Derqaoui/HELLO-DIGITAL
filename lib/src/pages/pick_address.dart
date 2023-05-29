@@ -50,6 +50,11 @@ class _PickAddressWidgetState extends StateMVC<PickAddressWidget> {
           }
           Address _address =
               Address(address: selectedPlace?.formattedAddress ?? '');
+          if (selectedPlace != null) {
+            _address.address = selectedPlace.formattedAddress;
+            _address.latitude = selectedPlace.geometry.location.lat;
+            _address.longitude = selectedPlace.geometry.location.lng;
+          }
           return FloatingCard(
             height: 300,
             elevation: 0,

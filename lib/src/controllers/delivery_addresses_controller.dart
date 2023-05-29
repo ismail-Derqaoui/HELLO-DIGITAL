@@ -73,6 +73,7 @@ class DeliveryAddressesController extends ControllerMVC with ChangeNotifier {
       setState(() {
         this.addresses.insert(0, value);
       });
+
       /* ScaffoldMessenger.of(scaffoldKey?.currentContext).showSnackBar(SnackBar(
         content: Text(S.of(state.context).new_address_added_successfully),
       )); */
